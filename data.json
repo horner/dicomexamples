@@ -1,0 +1,83 @@
+{
+	"studies": [
+		
+		{
+			"StudyInstanceUID": "1.2.840.113663.1500.1.248223208.1.1.20110323.105903.687",
+			"StudyDescription": "",
+			"StudyDate": "20110323",
+			"StudyTime": "105903",
+			"PatientName": "Hart, William S.",
+			"PatientId": "10019",
+			"series": [
+				
+				{
+					"SeriesDescription": "",
+					"SeriesInstanceUID": "1.2.840.113663.1500.1.248223208.2.1.20110323.105903.687",
+					"SeriesNumber": 1,
+					"SeriesDate": "20110323",
+					"SeriesTime": "105903",
+					"Modality": "US",
+					"instances": [
+						
+						{
+							"metadata": {
+								"InstanceNumber": 1,
+								"Modality": "US",
+								"FrameTime":18,
+"HeartRate":74,
+"PhotometricInterpretation":"YBR_FULL_422",
+"SamplesPerPixel":3,
+"PlanarConfiguration":0,
+"NumberOfFrames":94,
+"Rows":600,
+"Columns":800,
+"UltrasoundColorDataPresent":1,
+"BitsAllocated":8,
+"BitsStored":8,
+"HighBit":7,
+"PixelRepresentation":0,
+"LossyImageCompressionRatio":0,
+
+								"SOPInstanceUID": "1.2.840.113663.1500.1.248223208.3.1.20110323.110042.375",
+								"SeriesInstanceUID": "1.2.840.113663.1500.1.248223208.2.1.20110323.105903.687",
+								"StudyInstanceUID": "1.2.840.113663.1500.1.248223208.1.1.20110323.105903.687",
+								"SeriesDate": "20110323"
+							},
+							"url": "dicomweb:http://localhost:8000/403.dcm"
+						},
+						
+						{
+							"metadata": {
+								"InstanceNumber": 2,
+								"Modality": "US",
+								"HeartRate":0,
+"SamplesPerPixel":3,
+"PhotometricInterpretation":"RGB",
+"PlanarConfiguration":0,
+"Rows":768,
+"Columns":1024,
+"UltrasoundColorDataPresent":1,
+"BitsAllocated":8,
+"BitsStored":8,
+"HighBit":7,
+"PixelRepresentation":0,
+"WindowCenter":127,
+"WindowWidth":254,
+
+								"SOPInstanceUID": "1.2.840.113663.1500.1.248223208.3.2.20110323.110115.703",
+								"SeriesInstanceUID": "1.2.840.113663.1500.1.248223208.2.1.20110323.105903.687",
+								"StudyInstanceUID": "1.2.840.113663.1500.1.248223208.1.1.20110323.105903.687",
+								"SeriesDate": "20110323"
+							},
+							"url": "dicomweb:http://localhost:8000/404.dcm"
+						}
+						
+					]
+				}
+				
+			]
+		}
+		
+	]
+}
+
