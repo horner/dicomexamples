@@ -1,2 +1,1 @@
-403.dcm filter=lfs diff=lfs merge=lfs -text
-404.dcm filter=lfs diff=lfs merge=lfs -text
+*.dcm filter=lfs diff=lfs merge=lfs -text
